@@ -1,6 +1,15 @@
-/* Base Styles */
+/*
+Project: Responsive Sidebar Navigation
+Author: Kamran Javed
+Portfolio: https://kamranjaved.com
+Company: OneDigitalLine
+Website: https://onedigitalline.com
+Email: meet@kamranjaved.com
+License: For personal or client use only. Redistribution prohibited.
+© Kamran Javed. All rights reserved.
+*/
+
 :root {
-  /* Light theme colors */
   --color-text-primary: #1f2936;
   --color-text-placeholder: #798eae;
   --color-bg-primary: #f9fafb;
@@ -13,7 +22,6 @@
   --transition-duration: 0.3s;
 }
 
-/* Dark theme colors */
 [data-theme="dark"] {
   --color-text-primary: #f1f5f9;
   --color-text-placeholder: #a6b7d2;
@@ -25,7 +33,6 @@
   --color-shadow: rgba(0, 0, 0, 0.3);
 }
 
-/* Reset and Base Styles */
 *,
 *::before,
 *::after {
@@ -46,19 +53,16 @@ body {
   transition: background-color var(--transition-duration) ease;
 }
 
-/* Accessibility Focus Styles */
 :focus-visible {
   outline: 2px solid var(--color-hover-primary);
   outline-offset: 2px;
 }
 
-/* Layout Components */
 .container {
   display: flex;
   min-height: 100vh;
 }
 
-/* Sidebar Styles */
 .sidebar {
   position: sticky;
   top: 0;
@@ -148,7 +152,6 @@ body {
   scrollbar-width: none;
 }
 
-/* Search Form */
 .search-form {
   border-radius: 8px;
   min-height: 48px;
@@ -188,7 +191,6 @@ body {
   color: var(--color-text-placeholder);
 }
 
-/* Menu List */
 .menu-list {
   display: flex;
   gap: 0.25rem;
@@ -222,7 +224,6 @@ body {
   background: var(--color-hover-primary);
 }
 
-/* Sidebar Footer */
 .sidebar-footer {
   padding: 1.25rem 1.125rem;
   white-space: nowrap;
@@ -296,7 +297,6 @@ body {
   transform: translateX(24px);
 }
 
-/* Site Navigation */
 .site-nav {
   display: none;
   position: sticky;
@@ -311,7 +311,6 @@ body {
   position: unset;
 }
 
-/* Main Content */
 .main-content {
   flex: 1;
   padding: 1.875rem;
@@ -330,7 +329,6 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   body::before {
     content: "";
