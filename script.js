@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // DOM Elements
   const sidebarToggleBtns = document.querySelectorAll(".sidebar-toggle");
   const sidebar = document.querySelector(".sidebar");
   const searchForm = document.querySelector(".search-form");
@@ -58,3 +57,12 @@ document.addEventListener("DOMContentLoaded", () => {
   initTheme();
   initEventListeners();
 });
+
+// Project: Responsive Sidebar Navigation
+// Author: Kamran Javed
+// Portfolio: https://kamranjaved.com
+// Company: OneDigitalLine
+// Website: https://onedigitalline.com
+// Email: meet@kamranjaved.com
+// License: For personal or client use only. Redistribution prohibited.
+// © Kamran Javed. All rights reserved.
